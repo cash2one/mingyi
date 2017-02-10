@@ -471,6 +471,19 @@ table { border-collapse:collapse; border-spacing:0; }
     width: 32%;
     margin-top: 8px;
     display: inline-block;
+    position: relative;
+}
+
+.oxgirl-slide .hot {
+    width: 32px;
+    height: 12px;
+    background: #ff0000;
+    color: #fff;
+    font-size: 10px;
+    line-height: 12px;
+    position: absolute;
+    bottom: 7%;
+    left: 5%;
 }
 
 .oxgirl-slide .hd ul li {
@@ -522,4 +535,134 @@ table { border-collapse:collapse; border-spacing:0; }
     display: inline-block;
     vertical-align: middle;
     line-height: 16px;
+}
+
+.rush-content {
+    margin-top: 8px;
+}
+
+.rush-item {
+    padding: 12px 8px 12px 8px;
+    border-top: 1px solid #eee;
+    display: flex;
+    font-size: 0;
+    position: relative;
+}
+
+.rush-pic {
+    flex: 0 0 137px;
+    width: 137px;
+    height: 104px;
+    display: inline-block;
+}
+.rush-desc {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.rush-item-title {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.rush-detail {
+    font-size: 12px;
+    line-height: 16px;
+    color: #999;
+    text-align: left;
+    margin-top: 6px;
+    display: -webkit-box!important;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    word-break:break-all;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:3;
+    -ms-box-orient:vertical;
+    -ms-line-clamp:33;
+    -moz-box-orient:vertical;
+    -moz-line-clamp:3;
+    box-orient:vertical;
+    line-clamp:3;
+}
+
+.rush-price {
+    font-size: 16px;
+    color: #999;
+    margin-top: 11px;
+    text-align: left;
+}
+
+.rush-btn {
+    position: absolute;
+    bottom: 12px;
+    right: 8px;
+}
+.doctor-wrapper {
+    margin-top: 5px;
+}
+
+.hospital-info {
+    margin-top: 5px;
+}
+
+.tel-wrapper {
+    padding: 5px 8px 15px 8px;
+}
+
+.address {
+    position: relative;
+}
+
+.my-info {
+    position: absolute;
+    font-size: 0;
+    right: 5px;
+    top: 10px;
+}
+.my-address {
+    margin-top: 10px;
+}
+
+.my-info i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+    vertical-align: top;
+    text-align: center;
+}
+
+.my-info span {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.my-map {
+    width: 100px;
+    height: 31px;
+    background: #333333;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 31px;
+    margin: 10px 0 0 35px;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 9px;
+    line-height: 12px;
+    color: #c2c2c2;
 }

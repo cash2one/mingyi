@@ -650,7 +650,7 @@ table { border-collapse:collapse; border-spacing:0; }
 footer {
     max-width: 640px;
     margin: 0 auto;
-    padding-bottom: 80px;
+    padding-bottom: 65px;
 }
 
 .tel-wrapper {
@@ -734,7 +734,7 @@ footer {
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
     border-left: 1px solid #eee;
-    padding: 3% 0;
+    padding: 1% 0;
     color: #000;
 }
 
@@ -750,4 +750,128 @@ footer {
 .bottom-fixed p {
     font-size: 16px;
     line-height: 1.5;
+}
+
+.pro-box {
+    max-width: 640px;
+    margin: 0 auto;
+    background: #f7f7f7;
+}
+.xm-content {
+    margin-left: 12px;
+}
+.xm-list {
+    padding: 6px 8px;
+    background: #fff;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 1px 0 #eee;
+}
+
+.xm-pic {
+    flex: 0 0 130px;
+    width: 107px;
+}
+
+.xm-title {
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.xm-desc {
+    font-size: 12px;
+    line-height: 15px;
+    color: #999;
+    margin: 8px 0;
+    display: -webkit-box!important;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    word-break:break-all;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:4;
+    -ms-box-orient:vertical;
+    -ms-line-clamp:4;
+    -moz-box-orient:vertical;
+    -moz-line-clamp:4;
+    box-orient:vertical;
+    line-clamp:4;
+}
+
+.xm-tags span{
+    display: inline-block;
+    width: 53px;
+    height: 15px;
+    color: #08c5bf;
+    border-radius: 5px;
+    border: 1px solid #08c5bf;
+    font-size: 9px;
+    line-height: 15px;
+    text-align: center;
+    margin-right: 3px;
+}
+
+.xm-tags i {
+    font-size: 9px;
+    margin-right: 2px;
+    line-height: 15px;
+}
+
+.xm-listcontent {
+    background: #fff;
+    padding: 0 8px;
+    margin-top: 8px;
+}
+
+.xm-people {
+    font-size: 0;
+    padding-top: 10px;
+    color: #000;
+    border-bottom: 1px solid #eee;
+}
+
+.xm-people i {
+    font-size: 28px;
+    line-height: 1.2;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.xm-people span {
+    margin-left: 3px;
+    font-size: 16px;
+    line-height: 1.2;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.people-content {
+    font-size: 12px;
+    color: #999;
+    margin-top: 10px;
+    line-height: 16px;
+}
+
+.xm-advantage i{
+    font-size: 20px;
+}
+
+.xm-compare-pic {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.pic-before,.pic-after {
+    flex: 1;
+}
+
+.pic-before {
+    margin-right: 8px;
+}
+
+.docotor-detail {
+    margin-top: 10px;
 }

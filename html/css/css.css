@@ -1028,6 +1028,49 @@ footer {
     background:-o-linear-gradient(top,#04d0bf,#10b4bf); /*Opera11*/
 }
 
+.article-wrapper {
+    max-width: 640px;
+    margin: 0 auto;
+    background: #f7f7f7;
+}
+
+.article-body {
+    margin-top: 5px;
+    padding: 10px 8px;
+    background: #fff;
+}
+
+.article-title {
+    font-size: 16px;
+    color: #f95680;
+    line-height: 18px;
+}
+
+.article-info {
+    padding: 6px 0;
+    border-bottom: 1px solid #eee;
+    color: #999;
+    font-size: 0px;
+}
+
+.article-info span {
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+.article-content {
+    font-size: 12px;
+    line-height: 16px;
+    color: #999;
+    margin-top: 10px;
+}
+
+.article-content img {
+    margin: 5px 0;
+}
+
+
+
 
 
 

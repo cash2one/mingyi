@@ -889,7 +889,7 @@ footer {
 
 .doc-item {
     display: flex;
-    padding: 10px 15px 16px 8px;
+    padding: 10px 5px 16px 8px;
     border-bottom: 1px solid #eee;
 }
 
@@ -939,3 +939,95 @@ footer {
     background:-webkit-linear-gradient(top,#04d0bf,#10b4bf);/*new gradient for Webkit*/
     background:-o-linear-gradient(top,#04d0bf,#10b4bf); /*Opera11*/
 }
+
+.case-box {
+    max-width: 640px;
+    margin: 0 auto;
+    background: #f7f7f7;
+}
+
+.case-item {
+    margin-top: 5px;
+    padding: 10px 8px 15px 8px;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    position: relative;
+}
+
+.case-top {
+    font-size: 0
+}
+
+.case-headimg {
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    vertical-align: middle;
+}
+
+.case-name {
+    font-size: 16px;
+    display: inline-block;
+    line-height: 16px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.case-img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.case-before {
+    margin-right: 9px;
+}
+
+.case-content {
+    font-size: 16px;
+    color: #999;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+.case-tag {
+    margin-top: 10px;
+    font-size: 0
+}
+
+.case-tag i {
+    color: #0eb4bf;
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 3px;
+}
+
+.tag-name {
+    font-size: 12px;
+    color: #0eb4bf;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 8px;
+}
+
+.case-btn {
+    position: absolute;
+    right: 8px;
+    bottom: 10px;
+    width: 62px;
+    height: 22px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+    background:-moz-linear-gradient(top,#04d0bf,#10b4bf);/*Mozilla*/
+    background:-webkit-gradient(linear,0 50%,100% 50%,from(#04d0bf),to(#10b4bf));/*Old gradient for webkit*/
+    background:-webkit-linear-gradient(top,#04d0bf,#10b4bf);/*new gradient for Webkit*/
+    background:-o-linear-gradient(top,#04d0bf,#10b4bf); /*Opera11*/
+}
+
+
+
+

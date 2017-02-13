@@ -219,6 +219,7 @@ table { border-collapse:collapse; border-spacing:0; }
     border-bottom: 1px solid #eee;
    
 }
+
 .search-input-wrapper {
     font-size: 0;
 }
@@ -234,18 +235,19 @@ table { border-collapse:collapse; border-spacing:0; }
     font-size: 0;
 }
 
+.search-input-wrapper form {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .search-input {
     padding: 5px 10px 5px 45px;
-    width: 60%;
     height: 20px;
     background: #f0f0f0;
     border: 0px;
     border-radius: 5px;
     font-size: 16px;
     color: #000;
-    display: inline-block;
-    vertical-align: middle;
-    
 }
 
 .search-cancel {

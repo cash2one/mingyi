@@ -1,0 +1,3 @@
+INSERT INTO `dede_taglist` VALUES('1','2','0','13','精准定位');
+INSERT INTO `dede_taglist` VALUES('2','2','0','13','专利设备');
+INSERT INTO `dede_taglist` VALUES('3','2','0','13','恢复快');

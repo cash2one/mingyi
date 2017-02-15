@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1,user-scalable=no">
+    {dede:include filename="inc.css.htm" /}
+    
+</head>
+<body>
+    {dede:include filename="inc.head.htm" /}
+    <!--首页开始-->
+    <div class="main-box">
+        <section class="banner-slide" id="bannerSlide">
+            <div class="bd">
+                <ul>
+                    {dede:arclist typeid="1" orderby='weight' isweight='Y' flag='c'}
+                        <li>
+                            <a href="[field:arcurl /]">
+                                <img src="[field:litpic /]" alt="[field:title]">
+                            </a>
+                        </li>
+                    {/dede:arclist}
+                    
+                </ul>
+            </div>
+            <div class="hd translateX">
+                <ul>
+                    {dede:arclist typeid="2"}
+                        <li></li>
+                    {/dede:arclist}
+                </ul>
+            </div>
+        </section>
+        <section class="pro-wrapper">
+             <nav class="pro-column">
+                 <a href="#">
+                    <span>
+                        <img src="images/pro_09.jpg" alt="" width="67" height="67">
+                        <h2 class="pro-title">品牌35年</h2>
+                    </span>
+                 </a>
+                 <a href="#">
+                    <span>
+                        <img src="images/pro_09.jpg" alt="" width="67" height="67">
+                        <h2 class="pro-title">品牌35年</h2>
+                    </li>
+                 </a>
+                 <a href="#">
+                    <span>
+                        <img src="images/pro_09.jpg" alt="" width="67" height="67">
+                        <h2 class="pro-title">品牌35年</h2>
+                    </span>
+                 </a>
+                 <a href="#">
+                    <span>
+                        <img src="images/pro_09.jpg" alt="" width="67" height="67">
+                        <h2 class="pro-title">品牌35年</h2>
+                    </span>
+                 </a>
+             </nav>
+             <nav class="pro-column">
+                 <a href="#">
+                    <span>
+                        <img src="images/pro_09.jpg" alt="" width="67" height="67">
+                        <h2 class="pro-title">品牌35年</h2>
+                    </span>
+                 </a>
+                 <a href="#">
+                    <span>
+                        <img src="images/pro_09.jpg" alt="" width="67" height="67">
+                        <h2 class="pro-title">品牌35年</h2>
+                    </li>
+                 </a>
+                 <a href="#">
+                    <span>
+                        <img src="images/pro_09.jpg" alt="" width="67" height="67">
+                        <h2 class="pro-title">品牌35年</h2>
+                    </span>
+                 </a>
+                 <a href="#">
+                    <span>
+                        <img src="images/pro_09.jpg" alt="" width="67" height="67">
+                        <h2 class="pro-title">品牌35年</h2>
+                    </span>
+                 </a>
+             </nav>
+             
+        </section>
+        <section class="sale-wrapper">
+            <div class="sale-left">
+                <img src="images/sale_31.jpg" alt="">
+            </div>
+            <div class="sale-right">
+                <div class="sale-top">
+                    <img src="images/sale_33.jpg" alt="">
+                </div>
+                <div class="sale-bottom">
+                    <img src="images/sale_35.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="case-wrapper">
+            <div class="case-title">
+                <div class="line"></div>
+                <div class="info">美丽案例</div>
+                <div class="line"></div>
+            </div>
+            <div class="case-slider po_r" id="caseSlider">
+                <a class="more">更多</a>
+                <div class="hd">
+                    <ul>
+                        <li>双眼皮</li>
+                        <li>隆鼻</li>
+                        <li>高端深v胸</li>
+                        <li>自体脂肪</li>
+                    </ul>
+                </div>
+                <div class="bd">
+                    <ul>
+                        <li>
+                            <div class="case-detail">
+                                <div class="case-pic">
+                                    <div class="pic-left">
+                                        <img src="images/case_67.jpg" alt="">
+                                    </div>
+                                    <div class="pic-right">
+                                        <img src="images/case_70.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="case-reply">
+                                    <div class="case-head">
+                                        <div class="head-img">
+                                            <img src="images/case_75.jpg" alt="" width="32" height="32"> 
+                                        </div>
+                                        <span class="head-name">琳琳</span>
+                                    </div>
+                                    <div class="case-detail-content">
+                                        我的鼻子很翘很好看，需要去除眼部上方多余的脂肪及肌肉，全切双眼皮，之后再做上眼睑矫正
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="case-detail">
+                                <div class="case-pic">
+                                    <div class="pic-left">
+                                        <img src="images/case_67.jpg" alt="">
+                                    </div>
+                                    <div class="pic-right">
+                                        <img src="images/case_70.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="case-reply">
+                                    <div class="case-head">
+                                        <div class="head-img">
+                                            <img src="images/case_75.jpg" alt="" width="32" height="32"> 
+                                        </div>
+                                        <span class="head-name">琳2</span>
+                                    </div>
+                                    <div class="case-detail-content">
+                                        我的鼻子很翘很好看，需要去除眼部上方多余的脂肪及肌肉，全切双眼皮，之后再做上眼睑矫正
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="case-detail">
+                                <div class="case-pic">
+                                    <div class="pic-left">
+                                        <img src="images/case_67.jpg" alt="">
+                                    </div>
+                                    <div class="pic-right">
+                                        <img src="images/case_70.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="case-reply">
+                                    <div class="case-head">
+                                        <div class="head-img">
+                                            <img src="images/case_75.jpg" alt="" width="32" height="32"> 
+                                        </div>
+                                        <span class="head-name">琳3</span>
+                                    </div>
+                                    <div class="case-detail-content">
+                                        我的鼻子很翘很好看，需要去除眼部上方多余的脂肪及肌肉，全切双眼皮，之后再做上眼睑矫正
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="case-detail">
+                                <div class="case-pic">
+                                    <div class="pic-left">
+                                        <img src="images/case_67.jpg" alt="">
+                                    </div>
+                                    <div class="pic-right">
+                                        <img src="images/case_70.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="case-reply">
+                                    <div class="case-head">
+                                        <div class="head-img">
+                                            <img src="images/case_75.jpg" alt="" width="32" height="32"> 
+                                        </div>
+                                        <span class="head-name">琳4</span>
+                                    </div>
+                                    <div class="case-detail">
+                                        我的鼻子很翘很好看，需要去除眼部上方多余的脂肪及肌肉，全切双眼皮，之后再做上眼睑矫正
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#">
+                <div class="zx-btn">
+                    <img src="images/btn_102.jpg" alt="" width="266" height="46">
+                </div>
+            </a>
+        </section>
+        <section class="oxgirl-wrapper">
+            
+            <div class="oxgirl-slide" id="oxgirlSlide">
+                
+                <div class="bd">
+                    <ul>
+                        <div class="oxgirl-title">
+                            <div class="line"></div>
+                            <div class="info">氧气少女</div>
+                            <div class="line"></div>
+                        </div>
+                        <li>
+                            <div class="hot">HOT</div>
+                            <img src="images/girl_106.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="images/girl_106.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="images/girl_106.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="images/girl_106.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="images/girl_106.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="images/girl_106.jpg" alt="">
+                        </li>
+                    </ul>
+                    <ul>
+                        <div class="oxgirl-title">
+                            <div class="line"></div>
+                            <div class="info">迷人网红</div>
+                            <div class="line"></div>
+                        </div>
+                        <li>
+                            <img src="images/girl_108.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="images/girl_108.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="images/girl_108.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="images/girl_108.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="images/girl_108.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="images/girl_108.jpg" alt="">
+                        </li>
+                    </ul>
+                    <ul>
+                        <div class="oxgirl-title">
+                            <div class="line"></div>
+                            <div class="info">都市丽人</div>
+                            <div class="line"></div>
+                        </div>
+                        <li>
+                            <img src="images/girl_111.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="images/girl_111.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="images/girl_111.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="images/girl_111.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="images/girl_111.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="images/girl_111.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="hd">
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="rush-wrapper">
+            <div class="rush-title">
+                <div class="line"></div>
+                <div class="info">限时秒杀</div>
+                <div class="line"></div>
+            </div>
+            <div class="rush-clock">
+                <i class="ion-android-alarm-clock"></i>
+                <span>00:05:36</span>
+            </div>
+            <div class="rush-content">
+                <div class="rush-item">
+                    <div class="rush-pic">
+                        <img src="images/time_01.jpg" alt="">
+                    </div>
+                    <div class="rush-desc">
+                        <h2 class="rush-item-title">韩式半永久纹眉</h2>
+                        <p class="rush-detail">内双，上眼睑下垂严重，需要去除眼部上方多余的脂肪及肌肉，全切双眼皮，之后再做上眼睑矫正</p>
+                        <div class="rush-price">¥199.00</div>
+                    </div>
+                    <div class="rush-btn">
+                        <a href="#">
+                            <img src="images/btn_140.jpg" alt="" width="83" height="30">
+                        </a>
+                    </div>
+                </div>
+                <div class="rush-item">
+                    <div class="rush-pic">
+                        <img src="images/time_01.jpg" alt="">
+                    </div>
+                    <div class="rush-desc">
+                        <h2 class="rush-item-title">韩式半永久纹眉</h2>
+                        <p class="rush-detail">内双，上眼睑下垂严重，需要去除眼部上方多余的脂肪及肌肉，全切双眼皮，之后再做上眼睑矫正</p>
+                        <div class="rush-price">¥199.00</div>
+                    </div>
+                    <div class="rush-btn">
+                        <a href="#">
+                            <img src="images/btn_140.jpg" alt="" width="83" height="30">
+                        </a>
+                    </div>
+                </div>
+                <div class="rush-item">
+                    <div class="rush-pic">
+                        <img src="images/time_01.jpg" alt="">
+                    </div>
+                    <div class="rush-desc">
+                        <h2 class="rush-item-title">韩式半永久纹眉</h2>
+                        <p class="rush-detail">内双，上眼睑下垂严重，需要去除眼部上方多余的脂肪及肌肉，全切双眼皮，之后再做上眼睑矫正</p>
+                        <div class="rush-price">¥199.00</div>
+                    </div>
+                    <div class="rush-btn">
+                        <a href="#">
+                            <img src="images/btn_140.jpg" alt="" width="83" height="30">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="doctor-wrapper">
+            <img src="images/foot_171.jpg" alt="">
+        </section>
+        <section class="hospital-info">
+            <img src="images/foot_173.jpg" alt="">
+        </section>
+    </div>
+    <!--首页结束-->
+    {dede:include filename="inc.foot.htm" /}
+</body>
+{dede:include filename="inc.js.htm" /}
+</html>
